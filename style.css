@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+html,
+body,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+h1 img {
+  display: block;
+}
+img {
+  border: 0;
+}
+a {
+  color: #990000;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff7f00;
+  text-decoration: underline;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.more {
+  text-align: right;
+}
+.clear {
+  clear: both;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/8b/d7/93/8bd79301fc8f7107a74cbc765936bba7.jpg");
+  text-align: center;
+
+  font-family: "Dancing Script", cursive;
+  color: #565656;
+}
+
+/** layout **/
+#wrapper {
+  text-align: left;
+  margin: auto;
+  width: 788px;
+  position: relative;
+}
+#left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 268px;
+}
+#right {
+  position: absolute;
+  top: 0;
+  left: 268px;
+  width: 520px;
+}
+
+/** Left **/
+#left {
+  background: url("https://i.pinimg.com/736x/51/69/a0/5169a05d9cbf43d2f937645c257328c4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  height: 800px;
+}
+#left h1 {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Dancing Script", cursive;
+  color: #6c0505;
+  height: 709px;
+}
+#copyright {
+  color: white;
+}
+#copyright p {
+  margin: 0 1em 0.5em 1em;
+}
+
+/** Right **/
+#nav {
+  background-image: url("https://i.pinimg.com/736x/af/b3/8a/afb38aa22c18a1e99cf6bc06934c37ba.jpg");
+  background-position: center 40%;
+  height: 100px;
+}
+#nav ul {
+  margin: 0;
+  padding: 0 0 0 30px;
+}
+#nav li {
+  float: left;
+
+  padding: 66px 9px 9px 9px;
+  list-style: none;
+}
+#nav li.last {
+  border-right: none;
+}
+#nav a {
+  border-right: 1px solid #000000;
+  background-color: rgb(172, 200, 190);
+  color: #000000;
+  font-size: 20px;
+  font-family: "Dancing Script", cursive;
+  font-weight: normal;
+}
+
+/** Body **/
+#body {
+  background: url(images/body_bg.jpg) repeat-y;
+}
+#body-top {
+  background: url(images/body_top.jpg) no-repeat;
+}
+#body-bot {
+  background: bottom left url(images/body_bot.jpg) no-repeat;
+  padding: 36px 39px 19px 39px;
+}
+
+#body h2 {
+  font: 18px "Dancing Script", serif;
+}
+#body h2 strong {
+  color: #660505;
+  font-weight: normal;
+  font-size: 18px;
+}
+#body h3 {
+  font: 14px "Dancing Script", serif;
+  color: #660505;
+  margin-top: 1.4em;
+  margin-bottom: 1.1em;
+}
+#body h4 {
+  color: #660505;
+}
+#body .left {
+  margin: 0 26px 0 0;
+}
+
+/** footer **/
+.body-hr {
+  clear: both;
+  height: 43px;
+  background: bottom left
+    url("https://i.pinimg.com/736x/ab/2b/0c/ab2b0c3eea9f439c4549c31328eaeef8.jpg");
+  margin: 10px -39px;
+}
+
+#footer-1 {
+  float: left;
+  width: 104px;
+  padding-right: 30px;
+  margin-top: 5px;
+  border-right: 1px solid #acacac;
+  font: 14px "Dancing Script", serif;
+  color: #660505;
+  text-align: center;
+}
+#footer-1 strong {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+}
+#footer-2 {
+  float: left;
+  width: 154px;
+  margin-left: 12px;
+  font: 18px "Dancing Script", serif;
+  color: #000;
+  line-height: 34px;
+}
+#footer-2 .left {
+  margin-right: 12px;
+}
+#footer-3 {
+  float: left;
+  width: 135px;
+  margin: 0;
+  font: 14px "Dancing Script", serif;
+  color: #000;
+  text-align: center;
+}
+#footer-3 .left {
+  margin-right: 12px;
+}
